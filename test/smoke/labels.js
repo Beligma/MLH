@@ -13,7 +13,7 @@ describe('My Little Hero', function () {
 
     });
 
-    describe('Elements exist', function () {
+    describe('Labels exist', function () {
 
         it('TC-002 Label for name', function () {
             const label = $$(sel.label)[0].isDisplayed();
@@ -34,6 +34,7 @@ describe('My Little Hero', function () {
             const label = $$(sel.label)[3].isDisplayed();
             expect(label).toEqual(true);
         });
+
     });
 
 
